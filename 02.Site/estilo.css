@@ -1,0 +1,61 @@
+
+/*Configurações Gerais*/
+
+body {
+
+	font-family: sans-serif;
+	background: #f9fafc;
+}
+
+
+footer{
+
+	text-align: center;
+	color: #2C3E50;
+
+}
+
+/*IDs*/
+
+#banner {
+	/*background: #3173e6;*/
+	background-image: url("Imagens/BP_Soluções_Banner.png");
+	background-repeat: none;
+	width: 1920px;
+	height: 610px;
+
+}
+
+#Servicos{
+
+	display: flex;
+	text-align: center;
+	width: 1880;
+}
+
+#Servicos article{
+
+	color: #2C3E50;
+	width: 450px;
+	padding: 10px;
+	margin: 10px;
+	/*border: 1px dashed black;*/
+}
+
+#Servicos h2{
+
+	color: #113677;
+}
+
+#Servicos p {
+
+	font-size: 1.25em;
+}
+
+#Servicos a{
+
+	font-size: 1.10em;
+	text-decoration: none;
+}
+
+/*Classes*/
