@@ -15,4 +15,4 @@ Descrição: Desenvolvimento e administração do site institucional BP Soluçõ
 LOG:
 
 14/03/2020 - Bárbara de Paula - Busca de inspiração para o layout e desenvolvimento do background do banner (gimp).
- 
+16/03/2020 - Bárbara de Paula - Adição de ícones (gimp)
