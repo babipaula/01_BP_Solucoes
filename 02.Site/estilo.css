@@ -5,13 +5,14 @@ body {
 
 	font-family: sans-serif;
 	background: #f9fafc;
+	color: #2C3E50;
 }
 
 
 footer{
 
-	text-align: center;
-	color: #2C3E50;
+	text-align: center; color: #2C3E50; font-size: 1.25em;
+
 
 }
 
@@ -23,8 +24,20 @@ footer{
 	background-repeat: none;
 	width: 1920px;
 	height: 610px;
+	color: white;
 
 }
+
+#banner img{
+	position: relative;
+	top: 12%;
+	left: 25%;
+	width: 880px;
+	height: 344.0px;
+	/*border: 1px solid black;*/
+	
+}
+
 
 #Servicos{
 
@@ -52,17 +65,42 @@ footer{
 	font-size: 1.25em;
 }
 
-#Servicos a{
-
-	font-size: 1.10em;
-	text-decoration: none;
-}
-
 
 #Servicos img{
 	width: 220px;
 	height: 220px;
 }
 
+
+#sobre{
+	display: flex;
+	margin: 10px;
+	
+}
+
+#sobre article{
+
+	width: 900px;
+	margin: 20px;
+}
+
+#sobre img{
+	align-self: center;
+	width: 890px;
+	height: 489px;
+	margin-left: 50px
+}
+
+#sobre h2 {
+
+	color: #113677;
+	text-align: center;
+
+}
+
+#sobre p{
+	font-size: 1.25em;
+
+}
 
 /*Classes*/
