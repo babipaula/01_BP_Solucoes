@@ -1,106 +1,57 @@
 
-/*Configurações Gerais*/
+body{
 
-body {
-
-	font-family: sans-serif;
-	background: #f9fafc;
-	color: #2C3E50;
+	background-color:#f9fafc;
 }
 
-
-footer{
-
-	text-align: center; color: #2C3E50; font-size: 1.25em;
-
-
+h2 {
+	font-size:2rem;
+	color: #394285;
 }
 
-/*IDs*/
+h3{
+	color: #394285;
+}
 
-#banner {
-	/*background: #3173e6;*/
+p{
+	font-size: 1.3rem;
+	color: #82868c;
+}
+#sobre div {
+
+	margin-bottom: 3rem;
+}
+
+#banner{
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	background-color: #4974ea;
 	background-image: url("Imagens/BP_Soluções_Banner.png");
-	background-repeat: none;
-	width: 1920px;
-	height: 610px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 30rem;
+}
+
+.titulo_secao{
+	margin-top: 5rem;
+	margin-bottom: 3rem;	
+}
+
+#rodape{
+	background-color:#4974ea;
+	padding: 0.5rem;
+}
+footer p{
+	
 	color: white;
-
 }
 
-#banner img{
-	position: relative;
-	top: 12%;
-	left: 25%;
-	width: 880px;
-	height: 344.0px;
-	/*border: 1px solid black;*/
-	
+#nav{
+	background-color: #4974ea;
+	height: 4rem;
 }
 
-
-#Servicos{
-
-	display: flex;
-	text-align: center;
-	width: 1880;
+#nav p{
+	color: white;
 }
-
-#Servicos article{
-
-	color: #2C3E50;
-	width: 450px;
-	padding: 10px;
-	margin: 10px;
-	/*border: 1px dashed black;*/
-}
-
-#Servicos h2{
-
-	color: #113677;
-}
-
-#Servicos p {
-
-	font-size: 1.25em;
-}
-
-
-#Servicos img{
-	width: 220px;
-	height: 220px;
-}
-
-
-#sobre{
-	display: flex;
-	margin: 10px;
-	
-}
-
-#sobre article{
-
-	width: 900px;
-	margin: 20px;
-}
-
-#sobre img{
-	align-self: center;
-	width: 890px;
-	height: 489px;
-	margin-left: 50px
-}
-
-#sobre h2 {
-
-	color: #113677;
-	text-align: center;
-
-}
-
-#sobre p{
-	font-size: 1.25em;
-
-}
-
-/*Classes*/
